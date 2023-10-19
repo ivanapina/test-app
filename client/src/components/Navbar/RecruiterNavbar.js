@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
+import logo from "/Users/ivanapina/Desktop/test-app/client/src/assets/images/career-cruise-logo.png"
 
 export default class RecruiterNavbar extends Component {
 
@@ -12,6 +13,7 @@ export default class RecruiterNavbar extends Component {
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="/"><img src={logo} alt="logo" width="100px"/></a>
                     <Link to="/" className="navbar-brand">Career Cruise</Link>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav mr-auto">
