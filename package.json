@@ -4,6 +4,6 @@
     "collect.js": "^4.28.6"
   },
   "scripts": {
-    "start": "node ./server/server.js"
+    "start": "node server --ignore client"
   }
 }
