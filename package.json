@@ -2,8 +2,5 @@
   "dependencies": {
     "collect": "^0.3.5",
     "collect.js": "^4.28.6"
-  },
-  "scripts": {
-    "start": "node server --ignore client"
   }
 }
