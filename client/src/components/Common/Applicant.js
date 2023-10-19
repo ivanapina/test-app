@@ -29,7 +29,7 @@ export default class Applicant extends Component {
     render() {
         return (
             <div>
-                Hello!
+                Welcome to your dashboard!
            </div>
         )
     }
