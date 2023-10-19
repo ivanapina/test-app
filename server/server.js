@@ -10,9 +10,6 @@ const DB_NAME = "tutorial"
 var testAPIRouter = require("./routes/testAPI");
 var UserRouter = require("./routes/Users");
 
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connection to MongoDB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/tutorial', {useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true});
