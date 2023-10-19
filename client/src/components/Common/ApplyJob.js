@@ -70,12 +70,11 @@ export default class rateProduct extends Component {
                 <b>Job Recruiter name</b> : {this.state.job.recruiterName}<br></br>
                 <b>Job Rating</b> : {this.state.job.numRating != 0 ? this.state.job.totalRating / this.state.job.numRating : 0}<br></br>
                 <b>Job Salary</b> : {this.state.job.salary}<br></br>
-                <b>Job Duration</b> : {this.state.job.duration}<br></br>
                 <b>Job Deadline</b> : {this.state.job.deadline}<br></br> 
                 <b>Job Type of job</b> : {dict[this.state.job.jobType]}<br></br>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
-                        <label><b>SOP (Max 250 Words):</b></label>
+                        <label><b>Cover Letter:</b></label>
                         <textarea type="textarea"
                             className="form-control"
                             value={this.state.SOP}
